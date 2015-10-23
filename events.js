@@ -16,7 +16,7 @@ var events=[
 		{"name": "Faculty Recital",
             "location": "Peter Jay Sharp Hall",
 			"date": "2015-9-30",
-			"time": "14:0",
+			"time": "14:00",
 			"categories":["faculty event","concerts"],
 			"description":"Come to the faculty recital and support Juilliard performers!"
 			}
