@@ -1,4 +1,4 @@
-events=[
+var events=[
         {"name": "Student Recital",
             "location": "Paul Hall",
 			"date": "2015-10-30",
