@@ -29,7 +29,8 @@
     <div class="well col-md-4" ng-repeat="event in events | filter: filterByCategory">
       <span>{{event.name}}</span>
       <p>{{event.date}} | {{event.location}} | {{event.time}}</p>
-      <div ng-repeat="cat in event.categories">{{cat}}</div>
+      <button ng-repeat="cat in event.categories" class="btn">{{cat}}</button>
+      <hr>
       <p>{{event.description}}</p>
     </div>
   </div>
