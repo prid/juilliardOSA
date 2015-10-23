@@ -28,7 +28,8 @@
  <div class="row">
     <div class="well col-md-4" ng-repeat="event in events | filter: filterByCategory">
       <span>{{event.name}}</span>
-      <p>{{event.date}}</p>
+      <p>{{event.date}}| {{event.location}}|{{event.time}}</p>
+      <p>{{event.description}}</p>
     </div>
   </div>
   </div>
